@@ -1,12 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[ ]:
-
-
-
-
-
 # In[1]:
 
 
@@ -14,8 +7,6 @@ from pyspark import SparkContext,SparkConf
 
 
 # In[2]:
-
-
 conf = SparkConf().setAppName("lo").setMaster("local")
 
 
@@ -56,13 +47,6 @@ sc = SparkContext(conf=conf)
 # [reading the file using rdd]
 rdd4 = sc.textFile("/home/tushar/Desktop/gitRepos/ML/show.json")
 #rdd4.collect()
-
-
-# In[ ]:
-
-
-
-
 
 # In[5]:
 
@@ -369,126 +353,6 @@ plt.title("Cpu Percentage")
 
 line1.set_ydata(deltaSystem)
 plt.pause(0.5)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
 
 # In[ ]:
