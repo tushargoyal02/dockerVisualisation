@@ -31,3 +31,6 @@ for stat in stats_obj:
 my_json=new_bytes.decode('utf8').replace("'",'"')
 data=json.loads(my_json)
 s=json.dumps(data, intent=4, sort_keys=True)"""
+
+
+client1.id()
